@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -d '{"service_name": "ws1", "image": "nginx","env": ["device_name=dnjwnkf", "camera_name=dncwuhw"],"constraints": ["node.role == worker"], "api-key": "bxwe723bt72yxn1zy2exznq3qnxxtb6tbt3r7623xn36n"}' http://localhost:5000/create
+curl -X POST -H "Content-Type: application/json" -d '{"service_name": "ws1", "api-key": "bxwe723bt72yxn1zy2exznq3qnxxtb6tbt3r7623xn36n"}' http://localhost:5000/delete
+curl -X POST -H "Content-Type: application/json" -d '{"service_name": "ws1", "api-key": "bxwe723bt72yxn1zy2exznq3qnxxtb6tbt3r7623xn36n"}' http://localhost:5000/logs
+### service name : unique (in all)
