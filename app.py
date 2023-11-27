@@ -35,7 +35,7 @@ def log_service():
         try:
             service_name = json.get('service_name')
             service = client.services.get(service_name)
-            return service.logs(timestamps=True, tail=50)
+            return service.logs(timestamps=True, tail=100, details=True, stdout=True, stderr=True)
         except:
             return jsonify({"message": "Error Occured"})
     else : 

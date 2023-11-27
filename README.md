@@ -13,7 +13,7 @@
 
 ### Steps to use
 1. You can watch the visualizer on port 8080 of manager node's localhost to gain insights about current state of swarm and running containers
-2. you can use curl requests gicen in `curl` to create or delete sercvice or read logs of running service
+2. you can use curl requests given in `curl` to create or delete sercvice or read logs of running service
 
 ### Constraints
 * api key given in `commands.sh` must be send with every curl request in the json body
